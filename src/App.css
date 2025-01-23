@@ -1,0 +1,172 @@
+/* //APP.CSS */
+/* General Reset and Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styling */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header input[type="search"] {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Todos List */
+.todos {
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.todo-title {
+  font-weight: bold;
+}
+
+.todo-desc {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #b52b3b;
+}
+
+/* Add Todo Form */
+.add-todo {
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-todo input[type="text"] {
+  width: calc(50% - 10px);
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-todo button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-todo button:hover {
+  background-color: #218838;
+}
+
+/* About Page */
+.about {
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.about p {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .add-todo input[type="text"] {
+    width: calc(100% - 20px);
+  }
+
+  .add-todo button {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .todo-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .delete-btn {
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+}

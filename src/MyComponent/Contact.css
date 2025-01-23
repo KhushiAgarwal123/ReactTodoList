@@ -1,0 +1,123 @@
+/* Contact Page Styling */
+.contact-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .contact-details {
+    margin-top: 50px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-details h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .contact-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-details ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-details ul li strong {
+    font-weight: bold;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .social-links li {
+    margin-right: 15px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1rem;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design for mobile screens */
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      padding: 15px;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      font-size: 0.9rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
